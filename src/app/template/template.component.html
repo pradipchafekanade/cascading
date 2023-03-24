@@ -1,0 +1,63 @@
+<div class="container row">
+     <div class="col-lg-4 ">
+          <label for="" class="mt-4">Select state</label>
+          <select name="template" id="state" class="form-control" (change)="filldivision($event)">
+               <option value="state">Select state</option>
+               <option *ngFor="let state of states" value="{{ state.id }}">{{ state.state }}</option>
+          </select>
+          <label for="" class=" mt-4">Select Division</label>
+          <select name="template" id="division" class="form-control" (change)="filldistrict($event)" >
+               <option value="division">Select Division</option>
+               <option *ngFor="let d of division" value="{{ d.id }}">{{ d.division }}</option>
+          </select>
+          <label for="" class=" mt-4">Select District</label>
+          <select name="template" id="district" class="form-control" (change)="filltaluka($event)">
+               <option value="district">Select District</option>
+               <option *ngFor="let dist of district" value="{{ dist.id }}">{{ dist.district }}</option>
+          </select>
+          <label for="" class=" mt-4">Select Taluka</label>
+          <select name="template" id="taluka" class="form-control" (change)="fillvillage($event)">
+               <option  value="taluka">Select Taluka</option>
+               <option *ngFor="let tal of taluka" value="{{tal.id}}">{{tal.taluka}}</option>
+          </select>
+          <label for="" class=" mt-4">Select Village</label>
+          <select name="template" id="village" class="form-control">
+               <option value="village">Select Village</option>
+               <option *ngFor="let vil of village" value="{{vil.id}}">{{vil.name}}</option>
+
+
+          </select>
+          <hr>
+          <button class="btn btn-success" >Clear</button>
+          <button id="sub" class="btn btn-primary ms-5" (click)="submit()">Submit</button>
+
+     </div>
+     <div class="col-lg-8">
+          <table class="table table-bordered mt-4">
+               <tr>
+                    <th>Sr.no</th>
+                    <th>State</th>
+                    <th>Division</th>
+                    <th>District</th>
+                    <th>Taluka</th>
+                    <th>Village</th>
+                    <th>Edit/Delete</th>
+               </tr>
+
+               <tr *ngFor="let r of allRecords; let i =index;">
+                    <td class="h4 text-center">{{i+1}}</td>
+                    <td class="h4 text-center">{{r.state}}</td>
+                    <td class="h4 text-center">{{r.division}}</td>
+                    <td class="h4 text-center">{{r.district}}</td>
+                    <td class="h4 text-center">{{r.taluka}}</td>
+                    <td class="h4 text-center">{{r.village}}</td>
+                    <td class="h4 text-center">
+                      <button class="btn bg-primary"><i
+                          class="fa fa-pencil-square fa-2x" aria-hidden="true"></i></button>
+                      <button class="btn bg-danger ms-3"><i class="fa fa-trash fa-2x"
+                          aria-hidden="true"></i></button>
+                    </td>
+                  </tr>
+          </table>
+     </div>
+</div>
