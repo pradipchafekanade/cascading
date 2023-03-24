@@ -13,7 +13,7 @@ export class ApiService {
 }
 
 postRecord(data: any) {
-  return this.http.post<any>("http://localhost:3000/records/", data);
+  return this.http.post<any>("http://localhost:3000/posts/", data);
 }
 
 getRecord(path: string) {

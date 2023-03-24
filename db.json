@@ -1,0 +1,136 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "state": "Maharashtra",
+      "stateid": "1",
+      "division": "Aurangabad",
+      "divisionid": "2",
+      "district": "Hingoli",
+      "districtid": "12",
+      "taluka": "Amravati",
+      "talukaid": "156",
+      "village": "Chondi Tarf Shahapur",
+      "villageid": "12023",
+      "id": 2
+    },
+    {
+      "state": "Maharashtra",
+      "stateid": "1",
+      "division": "Kokan",
+      "divisionid": "5",
+      "district": "MumbaiCity",
+      "districtid": "36",
+      "taluka": "Amravati",
+      "talukaid": "397",
+      "village": "Select Village",
+      "villageid": "village",
+      "id": 3
+    },
+    {
+      "state": "Maharashtra",
+      "stateid": "1",
+      "division": "Kokan",
+      "divisionid": "5",
+      "district": "MumbaiSuburban",
+      "districtid": "31",
+      "taluka": "Amravati",
+      "talukaid": "283",
+      "village": "Maroda",
+      "villageid": "46005",
+      "id": 4
+    },
+    {
+      "state": "Maharashtra",
+      "stateid": "1",
+      "division": "Aurangabad",
+      "divisionid": "2",
+      "district": "Aurangabad",
+      "districtid": "10",
+      "taluka": "Amravati",
+      "talukaid": "135",
+      "village": "Abdimandi",
+      "villageid": "20859",
+      "id": 5
+    },
+    {
+      "state": "Maharashtra",
+      "stateid": "1",
+      "division": "Amravati",
+      "divisionid": "3",
+      "district": "Akola",
+      "districtid": "17",
+      "taluka": "Amravati",
+      "talukaid": "232",
+      "village": "Agar",
+      "villageid": "37611",
+      "id": 6
+    },
+    {
+      "state": "Maharashtra",
+      "stateid": "1",
+      "division": "Amravati",
+      "divisionid": "3",
+      "district": "Select District",
+      "districtid": "district",
+      "taluka": "Select Division",
+      "talukaid": "taluka",
+      "village": "Select Village",
+      "villageid": "village",
+      "id": 7
+    },
+    {
+      "state": "Maharashtra",
+      "stateid": "1",
+      "division": "Kokan",
+      "divisionid": "5",
+      "district": "Palghar",
+      "districtid": "37",
+      "taluka": "Mokhada",
+      "talukaid": "322",
+      "village": "Ghosali",
+      "villageid": "44577",
+      "id": 8
+    },
+    {
+      "state": "Maharashtra",
+      "stateid": "1",
+      "division": "Kokan",
+      "divisionid": "5",
+      "district": "Palghar",
+      "districtid": "37",
+      "taluka": "Jawhar",
+      "talukaid": "320",
+      "village": "Chandgaon",
+      "villageid": "44501",
+      "id": 9
+    },
+    {
+      "state": "Maharashtra",
+      "stateid": "1",
+      "division": "Pune",
+      "divisionid": "1",
+      "district": "Kolhapur",
+      "districtid": "9",
+      "taluka": "Karvir",
+      "talukaid": "51",
+      "village": "Beed",
+      "villageid": "17052",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
